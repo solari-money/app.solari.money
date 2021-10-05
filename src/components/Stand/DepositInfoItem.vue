@@ -61,9 +61,9 @@ export default {
     },
     tooltipText() {
       if (this.dataObj.type === "deposit")
-        return `Withdrawal will take out your ${this.dataObj.tokenType} from the pool along with earned Spell tokens.`;
+        return `Withdrawal will take out your ${this.dataObj.tokenType} from the pool along with earned Solari tokens.`;
       if (this.dataObj.type === "earned")
-        return "This will withdraw only your earned spell.";
+        return "This will withdraw only your earned solari.";
       return "";
     },
   },
